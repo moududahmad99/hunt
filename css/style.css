@@ -1,0 +1,20 @@
+/* Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+/* Common CSS End */
