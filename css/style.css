@@ -54,7 +54,7 @@ p {
 
 /* Navbar Area Start */
 .navbar {
-  background: rgb(80, 79, 79);
+  position: absolute;
   width: 100%;
   z-index: 1;
   --bs-navbar-padding-y: 0;
@@ -112,3 +112,84 @@ p {
 }
 /* Navbar Area End */
 
+/* Banner Area Start */
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url(../images/banner-backgrount.jpg) no-repeat center / cover;
+  padding: 250px 0 200px 0;
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
+}
+
+.banner-text h3 {
+  font-size: 36px;
+  line-height: 60px;
+  color: var(--quinary-color);
+  font-family: var(--secondary-font);
+  font-weight: var(--regular-font-weight);
+  padding: 0 62px;
+}
+
+.banner-text h3 span {
+  color: var(--quaternary-color);
+  font-weight: var(--bold-font-weight);
+  font-size: 55px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.banner-text p {
+  color: var(--quinary-color);
+  line-height: 24px;
+  font-size: 14px;
+  font-family: var(--primary-font);
+  padding: 0 40px;
+}
+
+.banner-button a {
+  color: var(--tertiary-color);
+  height: 50px;
+  width: 130px;
+  line-height: 50px;
+  font-weight: var(--medium-font-weight);
+  border: 1px solid #ffffff;
+  margin-top: 30px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  z-index: 1;
+  position: relative;
+}
+
+.banner-button a:hover {
+  color: var(--primary-color);
+  border: 1px solid transparent;
+}
+
+.banner-button a:first-child {
+  margin-right: 40px;
+}
+
+.banner-button a::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.banner-button a:hover::after {
+  width: 100%;
+  background-color: var(--quaternary-color);
+  z-index: -1;
+}
+/* Banner Area End */
