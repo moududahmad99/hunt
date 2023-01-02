@@ -18,7 +18,6 @@ a {
   display: inline-block;
 }
 
-
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -50,7 +49,6 @@ p {
   --bold-font-weight: 700;
 }
 /* Common CSS End */
-
 
 /* Navbar Area Start */
 .navbar {
@@ -115,7 +113,7 @@ p {
 /* Banner Area Start */
 #banner {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url(../images/banner-backgrount.jpg) no-repeat center / cover;
+    url(../images/banner-backgrount.jpg) no-repeat center / cover;
   padding: 250px 0 200px 0;
   clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
 }
@@ -435,3 +433,29 @@ p {
   background-color: #fec600;
 }
 /* About Area End */
+
+/* Portfolio Area Start */
+#portfolio {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+    url(../images/portfolio-background.jpg) no-repeat center / cover;
+  padding: 150px 0;
+  margin: 100px 0;
+  clip-path: polygon(0 13%, 100% 0, 100% 87%, 0% 100%);
+}
+
+#portfolio .heading h3 {
+  color: var(--tertiary-color);
+}
+
+#portfolio .heading p {
+  color: var(--quinary-color);
+}
+
+.portfolio-wrapper a {
+  width: 100%;
+}
+
+.portfolio-wrapper a:last-child {
+  margin-top: 20px;
+}
+/* Portfolio Area End */
