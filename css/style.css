@@ -459,3 +459,180 @@ p {
   margin-top: 20px;
 }
 /* Portfolio Area End */
+
+/* Service Area Start */
+#service {
+  margin: 80px 0;
+}
+
+.service-card {
+  position: relative;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  cursor: pointer;
+  padding: 55px 30px;
+  background-color: #eeeeee;
+}
+
+.service-card:hover {
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.service-left,.service-right {
+  position: relative;
+}
+
+.service-left::after {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  background-color: #eeeeee;
+  top: 50%;
+  right: -15px;
+  transform: translateY(-50%) rotate(45deg);
+  -webkit-transform: translateY(-50%) rotate(45deg);
+  -moz-transform: translateY(-50%) rotate(45deg);
+  -ms-transform: translateY(-50%) rotate(45deg);
+  -o-transform: translateY(-50%) rotate(45deg);
+}
+
+.service-right::after {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  background-color: #eeeeee;
+  top: 50%;
+  left: -15px;
+  transform: translateY(-50%) rotate(45deg);
+  -webkit-transform: translateY(-50%) rotate(45deg);
+  -moz-transform: translateY(-50%) rotate(45deg);
+  -ms-transform: translateY(-50%) rotate(45deg);
+  -o-transform: translateY(-50%) rotate(45deg);
+}
+
+.service-card p {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  color: var(--secondary-color);
+  line-height: 24px;
+}
+
+.service-img {
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  background-color: #eeeeee;
+  margin: 0 auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: relative;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+.service-img::after {
+  position: absolute;
+  content: '';
+  left: 50%;
+  top: 92px;
+  background: url(../images/service-line.png);
+  z-index: -1;
+  height: 140%;
+  width: 1px;
+  opacity: .5;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.slick-center .service-img {
+  background-color: #fec600;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.service-text h3 {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  color: var(--primary-color);
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.arrow-up{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  left: 50%;
+  top: 8px;
+  cursor: pointer;
+  border: 1px solid #353535;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: ease-in-out .5s;
+  -webkit-transition: ease-in-out .5s;
+  -moz-transition: ease-in-out .5s;
+  -ms-transition: ease-in-out .5s;
+  -o-transition: ease-in-out .5s;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.arrow-down {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  left: 50%;
+  bottom: 8px;
+  cursor: pointer;
+  border: 1px solid #353535;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: ease-in-out .5s;
+  -webkit-transition: ease-in-out .5s;
+  -moz-transition: ease-in-out .5s;
+  -ms-transition: ease-in-out .5s;
+  -o-transition: ease-in-out .5s;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.arrow-up:hover, .arrow-down:hover {
+  background-color: #fec600;
+  border: 1px solid transparent;
+}
+/* Service Area End */
