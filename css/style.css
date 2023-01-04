@@ -984,3 +984,44 @@ p {
   font-weight: var(--medium-font-weight);
 }
 /* Pricing Area End */
+
+/* Countdown Area Start */
+#countdown {
+  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../images/countdown-background.jpg) no-repeat center / cover;
+  padding: 40px 0;
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+  -o-transform: skewY(-3deg);
+}
+
+.countdown-inner {
+  border: 1px solid #ffffff;
+  padding: 10px 5px;
+}
+
+.countdown-inner h3 {
+  font-family: var(--secondary-font);
+  color: var(--tertiary-color);
+  line-height: 40px;
+  font-size: 24px;
+  transform: skewY(3deg);
+  -webkit-transform: skewY(3deg);
+  -moz-transform: skewY(3deg);
+  -ms-transform: skewY(3deg);
+  -o-transform: skewY(3deg);
+}
+
+.countdown-inner p {
+  font-family: var(--secondary-font);
+  color: var(--tertiary-color);
+  line-height: 40px;
+  font-size: 24px;
+  transform: skewY(3deg);
+  -webkit-transform: skewY(3deg);
+  -moz-transform: skewY(3deg);
+  -ms-transform: skewY(3deg);
+  -o-transform: skewY(3deg);
+}
+/* Countdown Area End */
