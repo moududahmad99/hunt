@@ -1290,3 +1290,43 @@ footer {
   background-color: #fec600;
 }
 /* Footer Area End */
+
+/* Copyright Area Start */
+#footer-copyright {
+  background-color: #353535;
+  padding: 20px 0;
+}
+
+#footer-copyright h4 {
+  font-size: 13px;
+  color: var(--quinary-color);
+  font-weight: var(--regular-font-weight);
+}
+
+#footer-copyright h4 a {
+  color: var(--quaternary-color);
+}
+
+.backToTopButton a {
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fec600;
+  color: #000;
+  cursor: pointer;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+.backToTopButton a:hover {
+  background-color: #222222;
+  color: #ffffff;
+}
+/* Copyright Area End */
