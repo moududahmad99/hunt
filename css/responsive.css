@@ -1,0 +1,46 @@
+/* Extra Small Area Start */
+@media (max-width: 575.98px) {
+    /* Navbar Area Start */
+    .navbar {
+        background-color: rgb(104, 104, 104);
+        z-index: 99;
+      }
+    
+      .navbar i {
+        color: rgb(211, 211, 211);
+      }
+    
+      .nav-link::after {
+        display: none;
+      }
+    
+      .nav-link {
+        padding: 20px 0 !important;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+      }
+    
+      .nav-link:hover {
+        margin-left: 6px;
+      }
+    
+      .navbar button {
+        border: 1px solid rgb(211, 211, 211);
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+      }
+    
+      .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+      }
+    /* Navbar Area End */
+}
+/* Extra Small Area End */
