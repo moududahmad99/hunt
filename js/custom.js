@@ -38,6 +38,15 @@ $(function () {
         nextArrow: '<i class="fa-solid fa-arrow-down review-arrow-down"></i>',
         asNavFor: '.review-desc',
         speed: 1000,
+        responsive: [
+            {
+              breakpoint: 575.98,
+              settings: {
+                centerMode: true,
+                slidesToShow: 1
+              }
+            }
+          ] 
     });
     $('.review-desc').slick({
         autoplay: true,
