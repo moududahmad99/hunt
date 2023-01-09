@@ -1,4 +1,12 @@
 $(function () {
+    $('#banner').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        speed: 1000,
+        prevArrow: '<i class="fa-solid fa-angle-left slick-arrow1"></i>',
+        nextArrow: '<i class="fa-solid fa-angle-right slick-arrow2"></i>'
+    });
     $('.service-slider').slick({
         infinite: true,
         slidesToShow: 3,

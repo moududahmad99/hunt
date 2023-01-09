@@ -1,46 +1,86 @@
 /* Extra Small Area Start */
 @media (max-width: 575.98px) {
-    /* Navbar Area Start */
-    .navbar {
-        background-color: rgb(104, 104, 104);
-        z-index: 99;
-      }
-    
-      .navbar i {
-        color: rgb(211, 211, 211);
-      }
-    
-      .nav-link::after {
-        display: none;
-      }
-    
-      .nav-link {
-        padding: 20px 0 !important;
-        transition: 0.5s;
-        -webkit-transition: 0.5s;
-        -moz-transition: 0.5s;
-        -ms-transition: 0.5s;
-        -o-transition: 0.5s;
-      }
-    
-      .nav-link:hover {
-        margin-left: 6px;
-      }
-    
-      .navbar button {
-        border: 1px solid rgb(211, 211, 211);
-        border-radius: 0;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        -ms-border-radius: 0;
-        -o-border-radius: 0;
-      }
-    
-      .navbar-toggler:focus {
-        text-decoration: none;
-        outline: 0;
-        box-shadow: none;
-      }
-    /* Navbar Area End */
+  /* Navbar Area Start */
+  .navbar {
+    background-color: rgb(104, 104, 104);
+    z-index: 99;
+  }
+
+  .navbar i {
+    color: rgb(211, 211, 211);
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 20px 0 !important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .nav-link:hover {
+    margin-left: 6px;
+  }
+
+  .navbar button {
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  /* Navbar Area End */
+
+  /* Banner Area Start */
+  .banner-slide {
+    padding: 150px 0 110px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+  }
+
+  .banner-text h3 {
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 60px;
+  }
+
+  .banner-text h3 span {
+    font-size: 34px;
+    line-height: 30px;
+  }
+
+  .banner-text p {
+    line-height: 24px;
+    font-size: 13px;
+    padding: 5px 10px 0;
+  }
+
+  .banner-button a {
+    margin-top: 50px;
+  }
+
+  .banner-button a:first-child {
+    margin-right: 20px;
+  }
+
+  .slick-arrow1 {
+    left: 20px;
+  }
+
+  .slick-arrow2 {
+    right: 10px;
+  }
+  /* Banner Area End */
 }
 /* Extra Small Area End */

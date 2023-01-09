@@ -111,11 +111,29 @@ p {
 /* Navbar Area End */
 
 /* Banner Area Start */
-#banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/banner-backgrount.jpg) no-repeat center / cover;
+.banner-slide {
   padding: 250px 0 200px 0;
   clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
+}
+
+.slider-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/banner-backgrount.jpg) no-repeat center / cover;
+}
+
+.slider-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/banner-backgrount2.jpg) no-repeat center / cover;
+}
+
+.slider-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/banner-backgrount3.jpg) no-repeat center / cover;
+}
+
+.slider-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/banner-backgrount4.jpg) no-repeat center / cover;
 }
 
 .banner-text h3 {
@@ -190,6 +208,81 @@ p {
   background-color: var(--quaternary-color);
   z-index: -1;
 }
+
+/* Slick Slider Button Start */
+.slick-arrow1 {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  color: rgba(0, 0, 0, 0.863);
+  font-size: 30px;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  cursor: pointer;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.slick-arrow1::after {
+  position: absolute;
+  content: "";
+  top: -6px;
+  left: -8px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  z-index: -1;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.slick-arrow1:hover::after {
+  background-color: #fec600;
+}
+
+.slick-arrow2 {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  color: rgba(0, 0, 0, 0.863);
+  font-size: 30px;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  cursor: pointer;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.slick-arrow2::after {
+  position: absolute;
+  content: "";
+  top: -6px;
+  left: -8px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  z-index: -1;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.slick-arrow2:hover::after {
+  background-color: #fec600;
+}
+/* Slick Slider Button End */
+
 /* Banner Area End */
 
 /* About Area Start */
@@ -1210,9 +1303,9 @@ footer {
 
 .footer-logo::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 1px;
-  width:100%;
+  width: 100%;
   background-color: #686868;
   bottom: 2px;
   left: 0;
@@ -1279,11 +1372,11 @@ footer {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  transition: .5s;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 .footer-social a:hover {
@@ -1318,11 +1411,11 @@ footer {
   background-color: #fec600;
   color: #000;
   cursor: pointer;
-  transition: .5s;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 .backToTopButton a:hover {
