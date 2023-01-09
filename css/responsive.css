@@ -82,5 +82,39 @@
     right: 10px;
   }
   /* Banner Area End */
+
+  /* About Area Start */
+  .heading h3 {
+    font-size: 25px;
+  }
+
+  .heading p {
+    font-size: 13px;
+    padding: 20px 10px 0 10px;
+  }
+
+  .about-text {
+    padding: 10px 24px 20px;
+  }
+
+  .about-img {
+    height: 240px;
+    width: 240px;
+  }
+
+  .about-img::after {
+    height: 310px;
+    width: 310px;
+  }
+
+  .about-text h3 {
+    font-size: 16px;
+    line-height: 50px;
+  }
+
+  .about-text p {
+    font-size: 13px;
+  }
+  /* About Area End */
 }
 /* Extra Small Area End */
