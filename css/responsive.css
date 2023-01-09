@@ -129,15 +129,15 @@
   }
   /* Portfolio Area End */
 
-   /* Service Area Start */
-	#service {
-		margin: 0;
-	}
+  /* Service Area Start */
+  #service {
+    margin: 0;
+  }
 
-	.service-card {
-		margin: 0 12px 30px 12px;
-		padding: 25px 20px;
-	}
+  .service-card {
+    margin: 0 12px 30px 12px;
+    padding: 25px 20px;
+  }
 
   .service-card p {
     text-align: justify !important;
@@ -153,13 +153,13 @@
     display: none;
   }
 
-	.service-right::after {
-		display: none;
-	}
+  .service-right::after {
+    display: none;
+  }
 
-	.service-left::after {
-		display: none;
-	}
+  .service-left::after {
+    display: none;
+  }
 
   .arrow-up {
     top: 0;
@@ -196,12 +196,40 @@
   /* Pricing Area Start */
 
   /* Countdown Area Start */
-	.countdown-inner {
-		margin-bottom: 15px;
-	}
-	/* Countdown Area End */
+  .countdown-inner {
+    margin-bottom: 15px;
+  }
+  /* Countdown Area End */
 
   /* Team Area Start */
   /* Team Area End */
+
+  /* Footer Area Start */
+  footer {
+    padding: 50px 0 0px 0;
+    clip-path: polygon(0 6%, 100% 4.4%, 100% 100%, 0% 100%);
+  }
+
+  .brand {
+    margin: 0 5px;
+  }
+
+  .footer-contact p {
+    padding: 0px;
+    line-height: 24px;
+    font-size: 13px;
+    font-family: var(--secondary-font);
+    color: #ffffff;
+  }
+
+  .footer-social h3 {
+    font-size: 16px;
+  }
+
+  .footer-social a {
+    margin: 5px;
+  }
+
+  /* Footer Area End */
 }
 /* Extra Small Area End */

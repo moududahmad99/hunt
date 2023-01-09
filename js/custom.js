@@ -19,13 +19,13 @@ $(function () {
         nextArrow: '<i class="fa-solid fa-arrow-down arrow-down"></i>',
         responsive: [
             {
-              breakpoint: 575.98,
-              settings: {
-                centerMode: true,
-                slidesToShow: 1
-              }
+                breakpoint: 575.98,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 1
+                }
             }
-          ]
+        ]
     });
     $('.review-users').slick({
         autoplay: true,
@@ -40,13 +40,13 @@ $(function () {
         speed: 1000,
         responsive: [
             {
-              breakpoint: 575.98,
-              settings: {
-                centerMode: true,
-                slidesToShow: 1
-              }
+                breakpoint: 575.98,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 1
+                }
             }
-          ] 
+        ]
     });
     $('.review-desc').slick({
         autoplay: true,
@@ -61,5 +61,31 @@ $(function () {
     $('.counter').counterUp({
         delay: 10,
         time: 1000
+    });
+    $('.brand').slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: 0,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 575.98,
+                settings: {
+                    centerMode: true,
+                    centerPadding: 0,
+                    slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 767.98,
+                settings: {
+                    centerMode: true,
+                    centerPadding: 0,
+                    slidesToShow: 2
+                }
+            }
+        ]
     });
 })
