@@ -17,6 +17,15 @@ $(function () {
         speed: 1500,
         prevArrow: '<i class="fa-solid fa-arrow-up arrow-up"></i>',
         nextArrow: '<i class="fa-solid fa-arrow-down arrow-down"></i>',
+        responsive: [
+            {
+              breakpoint: 575.98,
+              settings: {
+                centerMode: true,
+                slidesToShow: 1
+              }
+            }
+          ]
     });
     $('.review-users').slick({
         autoplay: true,
