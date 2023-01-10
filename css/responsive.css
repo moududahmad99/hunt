@@ -341,13 +341,13 @@
 
   /* Service Area Start */
   #service {
-		margin: 0;
-	}
+    margin: 0;
+  }
 
-	.service-card {
-		margin: 0 12px 30px 12px;
-		padding: 25px 20px;
-	}
+  .service-card {
+    margin: 0 12px 30px 12px;
+    padding: 25px 20px;
+  }
 
   .service-card p {
     text-align: justify !important;
@@ -363,13 +363,13 @@
     display: none;
   }
 
-	.service-right::after {
-		display: none;
-	}
+  .service-right::after {
+    display: none;
+  }
 
-	.service-left::after {
-		display: none;
-	}
+  .service-left::after {
+    display: none;
+  }
 
   .arrow-up {
     top: 0;
@@ -409,9 +409,16 @@
   }
   /* Pricing Area Start */
 
-  	/* Countdown Area Start */
-	.countdown-inner {
-		margin-bottom: 15px;
-	}
+  /* Countdown Area Start */
+  .countdown-inner {
+    margin-bottom: 15px;
+  }
+  /* Countdown Area End */
+
+  /* Team Area Start */
+  .team-overlayIcon a {
+    margin: 0 3px;
+  }
+  /* Team Area End */
 }
 /* Small Area End */
