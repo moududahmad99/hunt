@@ -310,5 +310,21 @@
     margin-right: 20px;
   }
   /* Banner Area End */
+
+  /* About Area Start */
+  .about-text {
+    padding: 15px 24px 25px;
+  }
+
+  .about-img {
+    height: 380px;
+    width: 380px;
+  }
+
+  .about-img::after {
+    height: 450px;
+    width: 450px;
+  }
+  /* About Area End */
 }
 /* Small Area End */
