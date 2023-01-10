@@ -207,7 +207,7 @@
   /* Footer Area Start */
   footer {
     padding: 50px 0 0px 0;
-    clip-path: polygon(0 6%, 100% 4.4%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 6.91%, 100% 4.4%, 100% 100%, 0% 100%);
   }
 
   .brand {
@@ -420,5 +420,12 @@
     margin: 0 3px;
   }
   /* Team Area End */
+
+  /* Footer Area Start */
+  footer {
+    padding: 50px 0 0px 0;
+    clip-path: polygon(0 7.5%, 100% 3.4%, 100% 100%, 0% 100%);
+  }
+  /* Footer Area End */
 }
 /* Small Area End */
