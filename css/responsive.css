@@ -535,5 +535,46 @@
     margin: 30px 0;
   }
   /* Portfolio Area End */
+
+  /* Service Area Start */
+  #service {
+    margin: 0;
+  }
+
+  .service-card {
+    margin: 0 12px 30px 12px;
+    padding: 25px 20px;
+  }
+
+  .service-card p {
+    text-align: justify !important;
+    font-size: 13px;
+  }
+
+  .service-text {
+    text-align: center !important;
+    padding-top: 30px;
+  }
+
+  .service-img::after {
+    display: none;
+  }
+
+  .service-right::after {
+    display: none;
+  }
+
+  .service-left::after {
+    display: none;
+  }
+
+  .arrow-up {
+    top: 0;
+  }
+
+  .arrow-down {
+    bottom: 0;
+  }
+  /* Service Area End */
 }
 /* Medium Area End */
