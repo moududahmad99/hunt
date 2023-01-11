@@ -453,6 +453,7 @@
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+    font-size: 2vw;
   }
 
   .nav-link:hover {
@@ -474,5 +475,37 @@
     box-shadow: none;
   }
   /* Navbar Area End */
+
+  /* Banner Area Srart */
+  .banner-slide {
+    padding: 150px 0 110px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+  }
+
+  .banner-text h3 {
+    font-size: 3.2vw;
+    line-height: 55px;
+    padding: 0 120px;
+  }
+
+  .banner-text h3 span {
+    font-size: 7vw;
+    line-height: 40px;
+  }
+
+  .banner-text p {
+    line-height: 24px;
+    font-size: 1.6vw;
+    padding: 5px 10px 0;
+  }
+
+  .banner-button a {
+    margin-top: 50px;
+  }
+
+  .banner-button a:first-child {
+    margin-right: 20px;
+  }
+  /* Banner Area End */
 }
 /* Medium Area End */
