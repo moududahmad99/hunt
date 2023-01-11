@@ -407,7 +407,7 @@
   #pricing {
     margin: 30px 0 50px;
   }
-  /* Pricing Area Start */
+  /* Pricing Area End */
 
   /* Countdown Area Start */
   .countdown-inner {
@@ -620,6 +620,12 @@
   .pricing-package ul li {
     font-size: 12px;
   }
-  /* Pricing Area Start */
+  /* Pricing Area End */
+
+  /* Countdown Area Start */
+  .countdown-inner {
+    margin-bottom: 15px;
+  }
+  /* Countdown Area End */
 }
 /* Medium Area End */
