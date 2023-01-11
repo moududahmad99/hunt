@@ -576,5 +576,24 @@
     bottom: 0;
   }
   /* Service Area End */
+
+  /* Review Area Start */
+  #review {
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+    padding: 100px 0 100px 0;
+  }
+
+  .review-desc-inner::after {
+    display: none;
+  }
+
+  .review-arrow-down {
+    bottom: -200%;
+  }
+
+  .review-desc-inner {
+    margin-left: 0px;
+  }
+  /* Review Area End */
 }
 /* Medium Area End */

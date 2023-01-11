@@ -66,6 +66,13 @@ $(function () {
                     centerMode: true,
                     slidesToShow: 1
                 }
+            },
+            {
+                breakpoint: 991.98,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 1
+                }
             }
         ]
     });
