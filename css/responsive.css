@@ -627,5 +627,11 @@
     margin-bottom: 15px;
   }
   /* Countdown Area End */
+
+  /* Team Area Start */
+  .team-overlayIcon a {
+    margin: 0 3px;
+  }
+  /* Team Area End */
 }
 /* Medium Area End */
